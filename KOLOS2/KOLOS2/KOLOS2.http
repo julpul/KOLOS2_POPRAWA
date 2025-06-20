@@ -1,0 +1,12 @@
+@KOLOS2_HostAddress = http://localhost:5094
+
+GET {{KOLOS2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+### Dodawanie nowej wystawy
+POST http://localhost:5094/api/characters/1/backpacks
+Content-Type: application/json
+
+[1,2]
+

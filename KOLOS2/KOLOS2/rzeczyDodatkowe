@@ -1,0 +1,14 @@
+EF.tools
+efcore
+EF design
+EF sqlserver
+Openapi - powinno byc
+
+
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+
+
+Komenda do odtwarzania bazy danych (należy mieć dodany connectionString):
+dotnet ef dbcontext scaffold Name=ConnectionStrings:Default --context-dir Data --output-dir Models Microsoft.EntityFrameworkCore.SqlServer
+to nwm po co
